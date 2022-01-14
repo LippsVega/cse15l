@@ -95,4 +95,4 @@ As such:
 
 ![Image](multiplecommands.png)
 <br /> <br /> <br />
-And that concludes the guide!
+And that concludes this guide!
