@@ -2,7 +2,7 @@
 This guide demonstrates the various steps required to log into a course specific account associated with *ieng6*, run commands remotely, copy files over, generate an ssh key, and more.
 
 ***Step 1***
-
+<br />
 &emsp; **Download and install [Visual Studio Code](https://code.visualstudio.com/).**
 
 ![Image](vscode.png)
@@ -94,3 +94,5 @@ Now we can run:
 As such:
 
 ![Image](multiplecommands.png)
+<br /> <br /> <br />
+And that concludes the guide!
