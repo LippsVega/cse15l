@@ -28,6 +28,7 @@ From here we're able to start typing in the necessary commands.
 Next, we're going to connect by typing in the command `ssh cs15lwi22zz@ieng6.ucsd.edu`, but with your unique account letters in place of the `zz` placeholders.
 <br />
 From there you'll be prompted for your password. Note that typing in the password won't show anything as you're typing, so just type it and press enter. After successfully logging in you should see something like this.
+
 ![Image](login.png)
 
 Now you're connected!
