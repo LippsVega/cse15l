@@ -1,5 +1,5 @@
-# Logging in!
-This guide demonstrates the various steps required to log into a course specific account associated with *ieng6*.
+# Working remotely!
+This guide demonstrates the various steps required to log into a course specific account associated with *ieng6*, run commands remotely, copy files over, generate an ssh key, and more.
 
 ***Step 1***
 
