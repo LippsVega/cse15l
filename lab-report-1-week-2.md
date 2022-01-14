@@ -1,0 +1,1 @@
+![Image](week1vscodescreenshot.png)
