@@ -6,6 +6,7 @@ This guide demonstrates the various steps required to log into a course specific
 &emsp; **Download and install [Visual Studio Code](https://code.visualstudio.com/).**
 
 ![Image](vscode.png)
+
 This is a great editor for working with code and using a terminal, which will make what we're about to do a breeze.
 <br /> <br /> <br />
 ***Step 2***
@@ -19,7 +20,9 @@ You may or may not already have this installed; I personally already had the cli
 &emsp; **Connect remotely.**
 <br />
 Here we're going to actually connect to the ieng6 server with our course account, which can be found [here](https://sdacs.ucsd.edu/~icc/index.php). After you've found your account, in order to actually connect to the server, you'll have to open a new terminal as such.
+
 ![Image](vscodeterminal.png)
+
 From here we're able to start typing in the necessary commands.
 <br />
 Next, we're going to connect by typing in the command `ssh cs15lwi22zz@ieng6.ucsd.edu`, but with your unique account letters in place of the `zz` placeholders.
@@ -50,7 +53,6 @@ Now we want to use some common commands to understand what's in this account's d
 Now we're going to `exit` out of our *ieng6* and copy a file over. To do so, when you're back in your own directory, we're going to use the `scp` command. Let's say we have a basic java file containing `Hello World`:
 
 ![Image](helloworld.png)
-
 
 As of right now this file only exists in our own local directory, but we're going to upload it to our *ieng6* account using
 `scp HelloWorld.java cs15lwi22zz@ieng6.ucsd.edu:~/`, again replacing the `zz` letters with your account specific ones. Again, you'll be prompted for your password, just enter it, and then it's copied over!
