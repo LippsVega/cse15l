@@ -8,13 +8,13 @@ This guide demonstrates the various steps required to log into a course specific
 ![Image](vscode.png)
 
 This is a great editor for working with code and using a terminal, which will make what we're about to do a breeze.
-<br /> <br /> <br />
+<br /><br /><br />
 ***Step 2***
 <br />
 &emsp; **Setup and install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).**
 <br />
 You may or may not already have this installed; I personally already had the client but I had to install the server.
-<br /> <br /> <br />
+<br /><br /><br />
 ***Step 3***
 <br />
 &emsp; **Connect remotely.**
@@ -34,7 +34,7 @@ From there you'll be prompted for your password. Note that typing in the passwor
 Now you're connected!
 <br />
 Prior to performing this command, you were inside of your own directory, something like `PS C:\Users\username`, but now you're inside of the directory associated with your *ieng6* account located on its server! Note that you can type `exit` or `CTRL + D` to exit to close the connection and return to your own directory.
-<br /> <br /> <br />
+<br /><br /><br />
 ***Step 4***
 <br />
 &emsp; **Testing out some commands.**
@@ -46,7 +46,7 @@ Now we want to use some common commands to understand what's in this account's d
 * `mkdir` - to make a new directory
 <br />
 ![Image](commands.png)
-<br /> <br /> <br />
+<br /><br /><br />
 ***Step 5***
 <br />
 &emsp; **Moving files.**
@@ -60,7 +60,7 @@ As of right now this file only exists in our own local directory, but we're goin
 <br />
 `ssh` back over and see the file by using `ls`, `javac HelloWorld.java`, and `java HelloWorld` just like you would from your own directory to run it over there! Note that running files remotely works exactly the same as locally! Talk about convenience!
 ![Image](runhelloworld.png)
-<br /> <br /> <br />
+<br /><br /><br />
 ***Step 6***
 <br />
 &emsp; **Setting up an SSH key.**
@@ -77,7 +77,7 @@ Now we need to log in *ieng6* and `mkdir .ssh` in order to create a remote direc
 Next, `exit` back out and copy the public `id_rsa.pub` over from our own directory by something like `scp /Users/joe/.ssh/id_rsa.pub cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` where you replace /Users/joe/ with your own directory containing the file and again, replace the `zz` with your own letters.
 
 Now you should be able to login without providing a password! Yay!
-<br /> <br /> <br />
+<br /><br /><br />
 ***Step 7***
 <br />
 &emsp; **Remote running convenience.**
@@ -97,5 +97,5 @@ Now we can run:
 As such:
 
 ![Image](multiplecommands.png)
-<br /> <br /> <br />
+<br /><br /><br />
 And that concludes this guide!
