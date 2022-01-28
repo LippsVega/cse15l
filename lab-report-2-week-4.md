@@ -3,16 +3,14 @@ This lab report showcases three different failure-inducing inputs that our group
 <br /><br />
 
 ***Failure-Inducing Input 1***
-<br />
+
 The first problem our group addressed was that of the case where an image link was provided in the input file, which looks like this:
 
 ![Image](image-input.png)
 
 **[Here's the image-file link.](https://github.com/LippsVega/markdown-parse/blob/main/image-file.md)**
 
-<br />
 Here's the output from this file:
-<br /><br />
 
 ![Image](image-input-error.png)
 
@@ -28,16 +26,14 @@ In summary, we noticed the symptom of the program printing out all links, includ
 <br /><br />
 
 ***Failure-Inducing Input 2***
-<br />
+
 The second problem that our group addressed was that of the case where there was an empty line after the link, which looks like this:
 
 ![Image](empty-line-after-link-input.png)
 
 **[Here's the empty-line-after-link file link.](https://github.com/LippsVega/markdown-parse/blob/main/empty-line-after-link.md)**
 
-<br />
 Here's the output from this file:
-<br /><br />
 
 ![Image](empty-line-after-link-input-error.png)
 
@@ -53,16 +49,14 @@ In summary, we experienced the symptom of the program crashing by throwing an ex
 <br /><br />
 
 ***Failure-Inducing Input 3***
-<br />
+
 The third problem we addressed was the case where the link isn't formatted correctly, like this:
 
 ![Image](format-input.png)
 
 **[Here's the format file link.](https://github.com/LippsVega/markdown-parse/blob/main/format.md)**
 
-<br />
 Here's the output from this file:
-<br /><br />
 
 ![Image](format-input-error.png)
 
