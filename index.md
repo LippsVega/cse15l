@@ -9,3 +9,4 @@
 *Lab Reports*
 * [Lab Report 1](lab-report-1-week-2.html)
 * [Lab Report 2](lab-report-2-week-4.html)
+* [Lab Report 3](https://docs.google.com/document/d/1AB6NoR0-JnomFkhkFZ_lhURcm2qXa7P2NUGlYLl447Q/edit#heading=h.9w41a1n53j60)
