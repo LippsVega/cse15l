@@ -1,5 +1,5 @@
 # Copying whole directories and running tests remotely!
-This lab report shows how we can copy whole directories to a remote account using `scp -r` and then run files contained within on that account. To illustrate the process, we will be copying our `markdown-parse` directory from our own local directory to the `ieng6` server and running the tests contained in `MarkdownParseTest.java`.
+This lab report shows how we can copy whole directories to a remote account using `scp -r` and then run files contained within on that account. To illustrate the process, we will be copying our `markdown-parse` directory from our own local directory to the `ieng6` server and running the tests contained in [MarkdownParseTest.java](https://github.com/LippsVega/markdown-parse/blob/main/MarkdownParseTest.java).
 <br /><br /><br />
 
 ***Copying the directory***
