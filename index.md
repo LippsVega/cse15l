@@ -8,6 +8,7 @@
 * [Lab GoogleDoc5](https://docs.google.com/document/d/1AB6NoR0-JnomFkhkFZ_lhURcm2qXa7P2NUGlYLl447Q/edit#heading=h.9w41a1n53j60)
 * [Lab GoogleDoc6](https://docs.google.com/document/d/1mADRflXGk-3DEPOq8Zx-RZRNRqm11n7RazJWjRbnIfY/edit)
 * [Lab GoogleDoc7](https://docs.google.com/document/d/1iRkwR0Yg0HBClb5fxHFeKWqtOPiz7XKVn1j-ctlfmjo/edit#heading=h.kj5u7ehh2d24)
+* [Lab GoogleDoc8](https://docs.google.com/document/d/1l9tSTZEodDQ0TrqzMqGpSB54hG6y_n8gYi-PBiFEMOw/edit#heading=h.7i28x5fc5wy7)
 
 *Lab Reports*
 * [Lab Report 1](lab-report-1-week-2.html)
