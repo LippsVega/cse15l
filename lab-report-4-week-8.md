@@ -51,7 +51,7 @@ And on the other implementation:
 
 ![Image](other-snippet1-output.png)
 
-Here we expected links to contain `another link`\`, `cod[e`, and `code]` as those are considered valid links according to `VSCode preview`.
+Here we expected links to contain \``google.com`, `google.com`, and `ucsd.edu` as those are considered valid links according to `VSCode preview`.
 <br /><br /><br />
 
 ***Code snippet2***
