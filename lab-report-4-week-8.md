@@ -1,6 +1,13 @@
 # Testing code snippets on 2 separate implementations!
 This lab report tests 3 different snippets of code on 2 separate implementations of `MarkdownParse.java`. The first implementation to be tested on is [mine](https://github.com/LippsVega/markdown-parse/blob/main/MarkdownParseTest.java), and the second is [this one](https://github.com/johnsonli010801/markdown-parse/blob/main/MarkdownParse.java).
 
+Here are the repositories for reference:
+
+[My repository](https://github.com/LippsVega/markdown-parse)
+
+[Other repository](https://github.com/johnsonli010801/markdown-parse)
+<br /><br /><br />
+
 ***Getting started***
 
 The tests I created can be found [here](https://github.com/LippsVega/markdown-parse/blob/main/MarkdownParseTest.java).
@@ -44,7 +51,7 @@ And on the other implementation:
 
 ![Image](other-snippet1-output.png)
 
-As you can see, the test didn't pass on either!
+Here we expected links to contain `another link`\`, `cod[e`, and `code]` as those are considered valid links according to `VSCode preview`.
 <br /><br /><br />
 
 ***Code snippet2***
@@ -78,4 +85,29 @@ Other output:
 
 ![Image](other-snippet3-output.png)
 
-Again, the test failed on both implementations.
+Again, the test failed on both implementations!
+
+[this title text is really long and takes up more than 
+one line
+
+and has some line breaks](
+    https://www.twitter.com
+)
+
+[this title text is really long and takes up more than 
+one line](
+    https://ucsd-cse15l-w22.github.io/
+)
+
+
+[this link doesn't have a closing parenthesis](github.com
+
+And there's still some more text after that.
+
+[this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/
+
+
+
+)
+
+And then there's more text
