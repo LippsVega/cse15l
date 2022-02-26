@@ -54,8 +54,6 @@ And on the other implementation:
 Here we expected links to contain \``google.com`, `google.com`, and `ucsd.edu` as those are considered valid links according to `VSCode preview`, but we got `url.com`, \``google.com`, and `google.com`. We weren't supposed to have `url.com` because of the first backtick preceding the first open bracket having been completed with the backtick within the brackets, and we were supposed to have `ucsd.edu`, but we didn't because the backticks surrounding the nested closing bracket weren't accounted for.
 
 Therefore, to fix this issue we would need to account for whether or not backticks are present and complete, and treat everything between them as separate from the way we handle links. This could take a lot of changes to implement because you would need to account for backticks both before and in the link and whether or not they are actually complete. For example, if you encounter a backtick you would need to handle the input differently until the next backtick, but then essentially revert back to handling the input as if the backtick doesn't matter if there isn't a second backtick.
-
-To fix the other issue, we would need to account for the case where there is matching backticks inside of the brackets. This fix should take quite a bit of changes to account for as you would have to keep track of nested backticks and have the program handle anything nested inside of them as separate from the rest of the program.
 <br /><br /><br />
 
 ***Code snippet2***
