@@ -94,3 +94,5 @@ Other output:
 Here we expected `https://www.twitter.com`, `https://ucsd-cse15l-w22.github.io/`, and `https://cse.ucsd.edu/`, but received received some of the links with a bunch of space and extra stuff.
 
 To fix this we need to account for the case where there's space and line breaks in between the brackets and parenthesis, as well as whether or not there are closing brackets and parenthesis. To do this, it shouldn't take that many changes to fix as we would just need to account for spaces and lines in between the brackets and parenthesis, while not allowing for them in between the a closing bracket and an opening parenthesis.
+<br /><br /><br />
+And that concludes this lab report!
